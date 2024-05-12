@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Object Challenger</string>
+    <string name="LoginText">Log In</string>
+    <string name="IDInput">ID</string>
+    <string name="Name">Name</string>
+    <string name="Nickname">Nickname</string>
+    <string name="PasswordInput">Password</string>
+    <string name="PasswordInputCheck">Password Check</string>
+    <string name="JoinButton">Join</string>
+    <string name="Year">Year</string>
+    <string name="Month">Month</string>
+    <string name="Date">Date</string>
+    <string name="Email">E-mail ID</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Options">Game Room Options</string>
+    <string name="GameMode">Game Mode</string>
+    <string name="TimeSet">Time Settings</string>
+    <string name="MemberNum">Game Member Settings</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

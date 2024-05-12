@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="sound_preference"
+        android:title="사운드 설정"
+        android:summary = "소리를 On/Off 합니다."/>
+    <ListPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:key="language_preference"
+        android:defaultValue="ko"
+        android:entries="@array/language"
+        android:entryValues="@array/language_value"
+        android:title="언어 설정"
+        android:summary = "앱 언어를 설정합니다."/>
+
+</PreferenceScreen>

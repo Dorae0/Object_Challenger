@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewDifficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="난이도:"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinnerDifficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDifficulty"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textViewModel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerDifficulty"
+        android:layout_marginTop="16dp"
+        android:text="모델명:"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinnerModel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewModel"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textViewRounds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerModel"
+        android:layout_marginTop="16dp"
+        android:text="라운드 수:"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinnerRounds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewRounds"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerRounds"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="확인" />
+</RelativeLayout>
